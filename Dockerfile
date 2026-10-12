@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 kalilinux/kali-rolling
+FROM --platform=linux/amd64 ubuntu:22.04
 
 ARG ROOT_PASSWORD=root
 ENV DEBIAN_FRONTEND=noninteractive \
